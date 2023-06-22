@@ -4,101 +4,47 @@ This repository contains a backend API for encrypting and encoding data using va
 
 ## Endpoints
 
+**Request Body**:
+
+{
+"text": "Text to encrypt"
+}
+
+**Response Body**:
+
+{
+"hash": "value"
+}
+
 ### SHA-256 Encryption
 
 - Endpoint: `/sha256`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encrypt"
-  }
-
-- Response Body:
-
-  {
-  "hash": "value"
-  }
 
 ### SHA-512 Encryption
 
 - Endpoint: `/sha512`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encrypt"
-  }
-
-- Response Body:
-
-  {
-  "hash": "value"
-  }
 
 ### SHA-384 Encryption
 
 - Endpoint: `/sha384`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encrypt"
-  }
-
-- Response Body:
-
-  {
-  "hash": "value"
-  }
 
 ### SHA-224 Encryption
 
 - Endpoint: `/sha224`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encrypt"
-  }
-
-- Response Body:
-
-  {
-  "hash": "value"
-  }
 
 ### SHA-1 Encryption
 
 - Endpoint: `/sha1`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encrypt"
-  }
-
-- Response Body:
-
-  {
-  "hash": "value"
-  }
 
 ### Base64 Encoding
 
 - Endpoint: `/base64`
 - Method: POST
-- Request Body:
-
-  {
-  "text": "Text to encode"
-  }
-
-- Response Body:
-
-  {
-  "encoded": "value"
-  }
 
 ## How to Use
 
